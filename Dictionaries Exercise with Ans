@@ -1,0 +1,31 @@
+create a variable and assign it a dictionary that has 5 key value pairs
+
+print and access the value held at the third key in the dictionary
+
+use the in keyword to check if a key appears in the dictionary and print the result
+
+use not in to check if a key does not appear in the dictionary and print the result
+
+---------------------**********-----------------------------------
+
+# Step 1: Create a variable and assign it a dictionary with 5 key-value pairs
+my_dict = {
+    "name": "John",
+    "age": 30,
+    "job": "Engineer",
+    "city": "New York",
+    "country": "USA"
+}
+
+# Step 2: Print and access the value held at the third key in the dictionary
+# Since dictionaries are unordered in Python, we need to explicitly use the key to access the value.
+# For example, accessing the value for the key "job":
+print(my_dict["job"])  # Prints: Engineer
+
+# Step 3: Use the in keyword to check if a key appears in the dictionary
+key_exists = "age" in my_dict  # Checking if "age" is a key in the dictionary
+print(key_exists)  # Prints: True
+
+# Step 4: Use not in to check if a key does not appear in the dictionary
+key_not_exists = "salary" not in my_dict  # Checking if "salary" is not a key in the dictionary
+print(key_not_exists)  # Prints: True
