@@ -1,0 +1,48 @@
+Create a variable called arctic_animals and assign it the list ["penguin", "elephant", "polar bear", "walrus", "tiger", "reindeer"]
+
+Use del to remove "tiger" from the list assigned to arctic_animals.
+
+Use the .remove() method to remove the string "elephant" from the list assigned to arctic_animals.
+
+Use the .append() method to add the string "arctic fox" to the list arctic_animals.
+
+Use .insert() to insert the string "snowy owl" between the strings "polar bear" and "walrus" inside of arctic_animals.
+
+Use the .sort() method to rearrange the strings in arctic_animals into alphabetical order.
+
+Use print() to display the list assigned to arctic_animals
+
+Use .index() to get the index number of "reindeer" from arctic_animals then print it.
+
+Use .pop() to get the last item from the list arctic_animals then print it.
+
+--------------------------******--------------------------------------
+
+# Step 1: Create a variable called arctic_animals and assign it the list
+arctic_animals = ["penguin", "elephant", "polar bear", "walrus", "tiger", "reindeer"]
+
+# Step 2: Use del to remove "tiger" from the list
+del arctic_animals[4]  # Removes "tiger" from the list
+
+# Step 3: Use the .remove() method to remove the string "elephant"
+arctic_animals.remove("elephant")  # Removes "elephant" from the list
+
+# Step 4: Use the .append() method to add the string "arctic fox"
+arctic_animals.append("arctic fox")  # Adds "arctic fox" to the end of the list
+
+# Step 5: Use .insert() to insert the string "snowy owl"
+arctic_animals.insert(3, "snowy owl")  # Inserts "snowy owl" between "polar bear" and "walrus"
+
+# Step 6: Use the .sort() method to arrange the strings alphabetically
+arctic_animals.sort()  # Sorts the list in alphabetical order
+
+# Step 7: Use print() to display the list
+print(arctic_animals)  # Prints the sorted list
+
+# Step 8: Use .index() to get the index of "reindeer"
+reindeer_index = arctic_animals.index("reindeer")  # Gets the index of "reindeer"
+print(reindeer_index)  # Prints the index of "reindeer"
+
+# Step 9: Use .pop() to get the last item from the list
+last_animal = arctic_animals.pop()  # Pops the last item from the list
+print(last_animal)  # Prints the last item popped (which is now "walrus")
